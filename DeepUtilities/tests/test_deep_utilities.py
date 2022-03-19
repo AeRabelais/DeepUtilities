@@ -1,4 +1,4 @@
-from deep_utilities import __version__
+from src.deeputilities import __version__
 
 
 def test_version():
