@@ -1,4 +1,4 @@
-name: build-bench
+name: build-utilities
 on:
   push:
     branches: [master, dev]
