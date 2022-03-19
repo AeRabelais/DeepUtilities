@@ -1,6 +1,7 @@
 name: publish-bench
 on:
-  push: [master]
+  push:
+    branches: [main, dev]
 
 jobs:
   build:
