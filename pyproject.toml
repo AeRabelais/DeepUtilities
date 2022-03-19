@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "deep-utilities"
+name = "DeepUtilities"
 version = "0.1.0"
 description = "A source-native, automated machine learning workflow"
 license = "Apache 2.0"
