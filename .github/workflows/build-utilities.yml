@@ -1,6 +1,6 @@
 name: publish-bench
 on:
-  push: [main]
+  push: [master]
 
 jobs:
   build:
@@ -10,7 +10,7 @@ jobs:
     - name: Set up Python 3.10
       uses: actions/setup-python@v2
       with:
-        python-version: "3.8, 3.9, 3.10"
+        python-version: "3.10"
     - name: Install poetry ${{ matrix.poetry-version }}
       env:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
