@@ -1,4 +1,4 @@
-name: publish-bench
+name: publish-utilities
 on:
   release:
     types:  [published]
